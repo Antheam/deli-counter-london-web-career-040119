@@ -2,12 +2,11 @@
 katz_deli = []
 
 def line 
-if   
+if deli.empty?
+    puts "The line is currently empty."
+  else
+    current_line = "The line is currently:"
+    deli.each.with_index(1) do |person, i|
+      current_line << " #{i}. #{person}"
 end 
 
-function nowServing (line) {
-  if (line.length===0) {
-    return`There is nobody waiting to be served!`;
-  }else{
-    return `Currently serving ${line.shift()}.`;
-  } }
