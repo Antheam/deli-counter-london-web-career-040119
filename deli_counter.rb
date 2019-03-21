@@ -3,7 +3,7 @@ katz_deli = []
 
 def line 
 if deli.empty?
-    puts "The line is currently empty."
+    puts "The line is empty."
   else
     current_line = "The line is currently:"
     deli.each.with_index(1) do |person, i|
